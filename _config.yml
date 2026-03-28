@@ -8,7 +8,6 @@ twitter_username: noodlefrenzy
 github_username: noodlefrenzy
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
