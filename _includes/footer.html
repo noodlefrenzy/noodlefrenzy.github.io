@@ -1,0 +1,30 @@
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h3 class="footer-heading">{{ site.title }}</h3>
+        <p class="footer-tagline">AI, ML, and the craft of building intelligent systems.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul class="footer-links">
+          <li><a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/{{ site.github_username }}" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener">Twitter / X</a></li>
+          <li><a href="https://instagram.com/noodle.frenzy" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+          <li><a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; {{ 'now' | date: "%Y" }} Michael Lanzetta. Built with Jekyll.</p>
+    </div>
+  </div>
+</footer>

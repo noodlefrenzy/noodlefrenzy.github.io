@@ -2,14 +2,18 @@
 layout: post
 title:  "How I Use Foundation Models"
 date:   2023-05-18 10:09:31 +0900
-categories: llms machinelearning foundationmodels promptengineering
+categories: llms machinelearning foundationmodels
 ---
 
-I've been writing a series of posts on LinkedIn on how I use Foundation Models in my daily life. This differs from how I use them with our customers and how we integrate them into projects. I may do future writings on that, but initially I wanted to focus on helping my friends and colleagues understand how powerful these models are as tools for helping them in their daily lives, right now.
+I've been writing a series on LinkedIn about how I use foundation models in my daily life — not the enterprise integration work I do at Microsoft, but practical ways these models help me every day right now.
 
-- [Bing Search as Music Recommender](https://www.linkedin.com/pulse/how-i-use-foundation-models-mike-lanzetta/)
-- [GPT as My Challenge Network](https://www.linkedin.com/pulse/gpt-my-challenge-network-mike-lanzetta/)
-- [Generating Midjourney Using GPT as Prompt Engineer](https://www.linkedin.com/pulse/art-ai-integration-unleashing-midjourney-gpt-mike-lanzetta/)
-- [Comparison Shopping with the New Bing](https://www.linkedin.com/pulse/comparison-shopping-ai-mike-lanzetta/)
+The goal is to show friends and colleagues just how powerful these tools already are.
 
-Note that most of these are using my [promptgen](https://github.com/noodlefrenzy/promptgen) library for managing my prompts.
+## The Series
+
+- [Bing Search as Music Recommender](https://www.linkedin.com/pulse/how-i-use-foundation-models-mike-lanzetta/) — using AI-powered search for serendipitous music discovery
+- [GPT as My Challenge Network](https://www.linkedin.com/pulse/gpt-my-challenge-network-mike-lanzetta/) — leveraging GPT to stress-test ideas and sharpen thinking
+- [Generating Midjourney Using GPT as Prompt Engineer](https://www.linkedin.com/pulse/art-ai-integration-unleashing-midjourney-gpt-mike-lanzetta/) — chaining models together for creative workflows
+- [Comparison Shopping with the New Bing](https://www.linkedin.com/pulse/comparison-shopping-ai-mike-lanzetta/) — practical AI-assisted decision making
+
+Most of these use my [promptgen](https://github.com/noodlefrenzy/promptgen) library for managing and templating prompts.

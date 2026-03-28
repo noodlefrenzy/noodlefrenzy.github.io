@@ -1,0 +1,26 @@
+<header class="site-header">
+  <nav class="nav-container">
+    <a href="{{ '/' | relative_url }}" class="logo">
+      <span class="logo-icon">&#x2727;</span>
+      <span class="logo-text">{{ site.title }}</span>
+    </a>
+    <div class="nav-links">
+      <a href="{{ '/' | relative_url }}" class="nav-link">Home</a>
+      <a href="{{ '/about/' | relative_url }}" class="nav-link">About</a>
+      <a href="https://github.com/{{ site.github_username }}" class="nav-link" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/{{ site.github_username }}" class="nav-link" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const links = document.querySelector('.nav-links');
+  toggle.addEventListener('click', () => {
+    links.classList.toggle('open');
+    toggle.classList.toggle('active');
+  });
+</script>
