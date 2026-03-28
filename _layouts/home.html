@@ -1,0 +1,130 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="hero-bg">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+  </div>
+  <div class="hero-content">
+    <p class="hero-label fade-in">Software Engineer &middot; AI/ML Architect &middot; Microsoft</p>
+    <h1 class="hero-title fade-in">
+      <span class="hero-line">Intelligent</span>
+      <span class="hero-line gradient-text">Artifice</span>
+    </h1>
+    <p class="hero-subtitle fade-in">Exploring the intersection of artificial intelligence, foundation models, and the craft of building systems that think.</p>
+    <div class="hero-cta fade-in">
+      <a href="{{ '/about/' | relative_url }}" class="btn btn-primary">About Me</a>
+      <a href="#posts" class="btn btn-ghost">Read the Blog</a>
+    </div>
+  </div>
+</section>
+
+<section id="posts" class="posts-section">
+  <div class="section-container">
+    <h2 class="section-title fade-in">Latest Writing</h2>
+    <div class="posts-grid">
+      {% for post in site.posts %}
+      <a href="{{ post.url | relative_url }}" class="card post-card fade-in">
+        <div class="card-glow"></div>
+        <div class="card-content">
+          <div class="post-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+            {% for cat in post.categories limit:2 %}
+            <span class="tag">{{ cat }}</span>
+            {% endfor %}
+          </div>
+          <h3 class="post-title">{{ post.title }}</h3>
+          <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+          <span class="read-more">Read more &rarr;</span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="talks-section">
+  <div class="section-container">
+    <h2 class="section-title fade-in">Talks & Appearances</h2>
+    <div class="talks-grid">
+      <div class="card talk-card fade-in">
+        <div class="card-glow"></div>
+        <div class="card-content">
+          <span class="talk-year">2015</span>
+          <h3>Nitrogen / AMQP</h3>
+          <p>CascadiaFest 2015 &mdash; Building real-time messaging systems with Node.js and AMQP.</p>
+          <div class="talk-links">
+            <a href="https://noodlefrenzy.github.io/Cascadia2015-NitrogenPres/#/" target="_blank" rel="noopener">Slides</a>
+            <a href="https://www.youtube.com/watch?v=99zXI6CZNGM" target="_blank" rel="noopener">Video</a>
+          </div>
+        </div>
+      </div>
+      <div class="card talk-card fade-in">
+        <div class="card-glow"></div>
+        <div class="card-content">
+          <span class="talk-year">ML</span>
+          <h3>Machine Learning on Spark</h3>
+          <p>Decoded Show &mdash; Practical machine learning at scale using Apache Spark on Azure.</p>
+          <div class="talk-links">
+            <a href="https://github.com/noodlefrenzy/DecodedSparkML" target="_blank" rel="noopener">Code & Deck</a>
+          </div>
+        </div>
+      </div>
+      <div class="card talk-card fade-in">
+        <div class="card-glow"></div>
+        <div class="card-content">
+          <span class="talk-year">DL</span>
+          <h3>Deep Learning with CNTK</h3>
+          <p>Decoded Show & Channel 9 &mdash; Deep learning frameworks and practical neural network applications.</p>
+          <div class="talk-links">
+            <a href="https://github.com/noodlefrenzy/DecodedCNTK" target="_blank" rel="noopener">Code & Deck</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="skills-section">
+  <div class="section-container">
+    <h2 class="section-title fade-in">Tech I Work With</h2>
+    <div class="skills-marquee fade-in">
+      <div class="skills-track">
+        <span class="skill-pill">Python</span>
+        <span class="skill-pill">TypeScript</span>
+        <span class="skill-pill">Rust</span>
+        <span class="skill-pill">C#</span>
+        <span class="skill-pill">PyTorch</span>
+        <span class="skill-pill">TensorFlow</span>
+        <span class="skill-pill">Hugging Face</span>
+        <span class="skill-pill">OpenAI / GPT</span>
+        <span class="skill-pill">Databricks</span>
+        <span class="skill-pill">AzureML</span>
+        <span class="skill-pill">Scikit-Learn</span>
+        <span class="skill-pill">SpaCy</span>
+        <span class="skill-pill">Node.js</span>
+        <span class="skill-pill">Linux</span>
+        <!-- duplicate for seamless loop -->
+        <span class="skill-pill">Python</span>
+        <span class="skill-pill">TypeScript</span>
+        <span class="skill-pill">Rust</span>
+        <span class="skill-pill">C#</span>
+        <span class="skill-pill">PyTorch</span>
+        <span class="skill-pill">TensorFlow</span>
+        <span class="skill-pill">Hugging Face</span>
+        <span class="skill-pill">OpenAI / GPT</span>
+        <span class="skill-pill">Databricks</span>
+        <span class="skill-pill">AzureML</span>
+        <span class="skill-pill">Scikit-Learn</span>
+        <span class="skill-pill">SpaCy</span>
+        <span class="skill-pill">Node.js</span>
+        <span class="skill-pill">Linux</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ content }}

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="post-page">
+  <div class="post-container">
+    <header class="post-header fade-in">
+      <div class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+        {% for cat in page.categories %}
+        <span class="tag">{{ cat }}</span>
+        {% endfor %}
+      </div>
+      <h1 class="post-page-title">{{ page.title }}</h1>
+    </header>
+
+    <div class="post-body fade-in">
+      {{ content }}
+    </div>
+
+    <footer class="post-footer fade-in">
+      <a href="{{ '/' | relative_url }}" class="back-link">&larr; Back to all posts</a>
+    </footer>
+  </div>
+</article>

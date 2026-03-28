@@ -4,10 +4,27 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Michael Lanzetta, a Software Engineer, Data Scientist, and Architect at Microsoft.
+Hi, I'm **Michael Lanzetta** — a Software Engineer, Data Scientist, and Architect at Microsoft. I build intelligent systems and help enterprise customers harness the power of AI/ML.
 
-According to my [LinkedIn profile](https://www.linkedin.com/in/noodlefrenzy/), I'm an accomplished technology leader with 20+ years of experience in software development, data science, and machine learning. Skilled in languages such as Python, Node.js, C#, and Rust, with a strong foundation in Windows, Linux, and extensive DB/NoSQL expertise. Adept at leveraging Databricks, Scikit-Learn, Spacy, AzureML, TensorFlow, Hugging Face, PyTorch, and OpenAI/GPT to create scalable solutions for diverse clients, from startups to organizations like Disney and the World Bank. Having held key roles at Amazon and Microsoft, I excel at identifying, implementing, and optimizing core ML use-cases from Gradient Boosting to Generative AI. Passionate about empowering organizations through AI-driven transformations, aligning technology with business strategies, and fostering a culture of innovation and excellence.
+## What I Do
 
-On [Twitter](https://twitter.com/noodlefrenzy), I work for Microsoft, helping our enterprise customers achieve more. Opinions are mostly my own. He/him.
+I have 20+ years of experience shipping software and ML systems for organizations ranging from startups to Disney and the World Bank. At Microsoft, I work hands-on with enterprise customers to design and implement AI-driven solutions — from classical gradient boosting models to cutting-edge generative AI.
 
-According to my [Instagram profile](https://www.instagram.com/noodle.frenzy/), I'm Machine Learning 🧠💻 at Microsoft. Traveler ✈️. Slightly less recent Tokyo transplant. 日本語を勉強します、頑張ります!
+I'm most at home working across the full stack of modern ML: **PyTorch**, **TensorFlow**, **Hugging Face**, **OpenAI/GPT**, **Databricks**, **AzureML**, and **Scikit-Learn** — wired together with **Python**, **TypeScript**, **C#**, or **Rust**.
+
+## Previously
+
+Before Microsoft, I held key engineering roles at **Amazon** and several startups. I've shipped systems across Windows, Linux, and every major cloud provider, with deep expertise in distributed systems, real-time messaging (AMQP/Nitrogen), and large-scale data processing (Spark).
+
+## Beyond Work
+
+I'm a traveler, a slightly-less-recent Tokyo transplant, and a perpetual student of Japanese.
+
+日本語を勉強します、頑張ります!
+
+## Find Me Online
+
+- [LinkedIn](https://www.linkedin.com/in/noodlefrenzy/)
+- [GitHub](https://github.com/noodlefrenzy)
+- [Twitter / X](https://twitter.com/noodlefrenzy)
+- [Instagram](https://www.instagram.com/noodle.frenzy/)
