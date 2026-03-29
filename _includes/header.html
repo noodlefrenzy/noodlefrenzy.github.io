@@ -5,7 +5,7 @@
       <span class="logo-text">{{ site.title }}</span>
     </a>
     <div class="nav-links" id="nav-links">
-      <a href="#writing" class="nav-link">Writing</a>
+      <a href="{{ '/' | relative_url }}#writing" class="nav-link">Writing</a>
       <a href="{{ '/about/' | relative_url }}" class="nav-link">About</a>
       <a href="https://substack.com/@{{ site.substack_username }}" class="nav-link" target="_blank" rel="noopener">Substack</a>
       <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="nav-link" target="_blank" rel="noopener">LinkedIn</a>
