@@ -1,11 +1,12 @@
-title: Intelligent Artifice
+title: The Inner Loop
 email: lanzetta@gmail.com
 description: >-
-  AI, ML, and the craft of building intelligent systems — by Michael Lanzetta.
+  Exploring AI-native engineering from Tokyo. From vibe coding to Hypervelocity Engineering — by Mike Lanzetta.
 baseurl: ""
 url: ""
-twitter_username: noodlefrenzy
 github_username: noodlefrenzy
+linkedin_username: noodlefrenzy
+substack_username: noodlefrenzy
 
 # Build settings
 plugins:

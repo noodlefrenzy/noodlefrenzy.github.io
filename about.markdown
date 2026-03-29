@@ -4,27 +4,26 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm **Michael Lanzetta** — a Software Engineer, Data Scientist, and Architect at Microsoft. I build intelligent systems and help enterprise customers harness the power of AI/ML.
+I'm **Mike Lanzetta** — a Principal Architect at Microsoft ISE, based in Tokyo, where I lead data science discipline for North Asia. I work with enterprise customers to design and ship AI-native systems across embodied AI, autonomous networks, and AI for science.
 
-## What I Do
+## Why The Inner Loop
 
-I have 20+ years of experience shipping software and ML systems for organizations ranging from startups to Disney and the World Bank. At Microsoft, I work hands-on with enterprise customers to design and implement AI-driven solutions — from classical gradient boosting models to cutting-edge generative AI.
+After 20+ years shipping software at Amazon, Microsoft, and startups — from systems at Disney and the World Bank to real-time messaging protocols and large-scale ML pipelines — I started writing about the fundamental shift happening in how engineering teams work with AI.
 
-I'm most at home working across the full stack of modern ML: **PyTorch**, **TensorFlow**, **Hugging Face**, **OpenAI/GPT**, **Databricks**, **AzureML**, and **Scikit-Learn** — wired together with **Python**, **TypeScript**, **C#**, or **Rust**.
+The result is **Hypervelocity Engineering**: a framework my team developed for integrating AI into the engineering inner loop without sacrificing rigor. It started with a question — how do you move a team from "vibe coding" to disciplined AI-native development? — and became a 7-part series that documents what we've learned.
 
-## Previously
+My latest work explores **agentic orchestration at scale**: the [vteam-hybrid](https://github.com/noodlefrenzy/vteam-hybrid) framework for managing specialized AI agent crews in production engineering workflows.
 
-Before Microsoft, I held key engineering roles at **Amazon** and several startups. I've shipped systems across Windows, Linux, and every major cloud provider, with deep expertise in distributed systems, real-time messaging (AMQP/Nitrogen), and large-scale data processing (Spark).
+## The Stack
+
+I work across the full range of modern AI/ML: **PyTorch**, **Hugging Face**, **OpenAI/GPT**, **Databricks**, **AzureML** — wired together with **Python**, **TypeScript**, **C#**, and **Rust**. Deep background in distributed systems, real-time messaging (AMQP), and large-scale data processing (Spark).
 
 ## Beyond Work
 
-I'm a traveler, a slightly-less-recent Tokyo transplant, and a perpetual student of Japanese.
+Tokyo transplant. Perpetual student of Japanese. Traveler when time allows.
 
-日本語を勉強します、頑張ります!
+## Find Me
 
-## Find Me Online
-
-- [LinkedIn](https://www.linkedin.com/in/noodlefrenzy/)
-- [GitHub](https://github.com/noodlefrenzy)
-- [Twitter / X](https://twitter.com/noodlefrenzy)
-- [Instagram](https://www.instagram.com/noodle.frenzy/)
+- [Substack](https://substack.com/@noodlefrenzy) — where I publish new writing
+- [LinkedIn](https://www.linkedin.com/in/noodlefrenzy/) — the full HVE series lives here
+- [GitHub](https://github.com/noodlefrenzy) — code, including [vteam-hybrid](https://github.com/noodlefrenzy/vteam-hybrid)
