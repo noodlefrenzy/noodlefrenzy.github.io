@@ -328,12 +328,12 @@ a:hover { color: #fff; }
 
 .about-section {
   padding: 5rem 0;
-  background: var(--bg-surface);
+  background: var(--bg);
 }
 
 .subscribe-section {
   padding: 5rem 0;
-  background: var(--bg);
+  background: var(--bg-surface);
 }
 
 /* ==========================================================================
@@ -404,6 +404,101 @@ a:hover { color: #fff; }
 .article-item:hover .article-arrow {
   color: var(--accent);
   transform: translateX(3px);
+}
+
+/* ==========================================================================
+   Featured Project Section
+   ========================================================================== */
+
+.project-section {
+  padding: 5rem 0;
+  background: var(--bg-surface);
+}
+
+.project-card {
+  display: block;
+  text-decoration: none;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  background: var(--bg-card);
+  transition: all 0.3s;
+  margin-top: 1.5rem;
+}
+
+.project-card:hover {
+  border-color: var(--accent);
+  background: #1a1a28;
+  color: var(--text);
+  box-shadow: 0 4px 24px rgba(0, 200, 224, 0.08);
+}
+
+.project-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.project-badge {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  padding: 0.25rem 0.6rem;
+  border: 1px solid rgba(0, 200, 224, 0.25);
+  border-radius: 4px;
+  background: rgba(0, 200, 224, 0.05);
+}
+
+.project-card:hover .article-arrow {
+  color: var(--accent);
+  transform: translateX(3px);
+}
+
+.project-card-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.35rem;
+  background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.project-card-tagline {
+  font-size: 1.05rem;
+  color: var(--text);
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.project-card-desc {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.project-card-stats {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.project-stat {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
+.project-stat strong {
+  color: var(--accent);
+  font-size: 1.1rem;
+  margin-right: 0.25rem;
 }
 
 /* ==========================================================================

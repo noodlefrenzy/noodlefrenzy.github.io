@@ -12,7 +12,7 @@ After 20+ years shipping software at Amazon, Microsoft, and startups — from sy
 
 The result is **Hypervelocity Engineering**: a framework my team developed for integrating AI into the engineering inner loop without sacrificing rigor. It started with a question — how do you move a team from "vibe coding" to disciplined AI-native development? — and became a 7-part series that documents what we've learned.
 
-My latest work explores **agentic orchestration at scale**: the [vteam-hybrid](https://github.com/noodlefrenzy/vteam-hybrid) framework for managing specialized AI agent crews in production engineering workflows.
+My latest work explores **agentic orchestration at scale**: [Summon](https://summon-dev.github.io/summon/) is a drop-in AI engineering team for Claude Code — 16 specialized agents, a 7-phase methodology, and real process gates. It packages the [vteam-hybrid](https://github.com/noodlefrenzy/vteam-hybrid) framework into something any developer can use to ship like a team of 10.
 
 ## The Stack
 
@@ -26,4 +26,5 @@ Tokyo transplant. Perpetual student of Japanese. Traveler when time allows.
 
 - [Substack](https://substack.com/@noodlefrenzy) — where I publish new writing
 - [LinkedIn](https://www.linkedin.com/in/noodlefrenzy/) — the full HVE series lives here
+- [Summon](https://summon-dev.github.io/summon/) — drop-in AI engineering team for Claude Code
 - [GitHub](https://github.com/noodlefrenzy) — code, including [vteam-hybrid](https://github.com/noodlefrenzy/vteam-hybrid)
