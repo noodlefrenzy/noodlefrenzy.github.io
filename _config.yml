@@ -6,7 +6,7 @@ baseurl: ""
 url: ""
 github_username: noodlefrenzy
 linkedin_username: noodlefrenzy
-substack_username: noodlefrenzy
+substack_url: https://innerloopai.substack.com/
 
 # Build settings
 plugins:

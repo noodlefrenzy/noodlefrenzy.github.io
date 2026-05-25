@@ -24,7 +24,7 @@ Tokyo transplant. Perpetual student of Japanese. Traveler when time allows.
 
 ## Find Me
 
-- [Substack](https://substack.com/@noodlefrenzy) — where I publish new writing
+- [Substack](https://innerloopai.substack.com/) — The Inner Loop, where I publish new writing on AI-native engineering
 - [LinkedIn](https://www.linkedin.com/in/noodlefrenzy/) — the full HVE series lives here
 - [Summon](https://summon-dev.github.io/summon/) — drop-in AI engineering team for Claude Code
 - [GitHub](https://github.com/noodlefrenzy) — code, including [vteam-hybrid](https://github.com/noodlefrenzy/vteam-hybrid)
