@@ -326,6 +326,10 @@ a:hover { color: #fff; }
   background: var(--bg);
 }
 
+.field-notes-section {
+  background: var(--bg-surface);
+}
+
 .about-section {
   padding: 5rem 0;
   background: var(--bg);
